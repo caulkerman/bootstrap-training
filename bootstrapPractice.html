@@ -43,16 +43,77 @@
     </div>
   </div>
 
-  <h1 align="center">Bootstrap Training Project</h1>
-    <br />
     <div class="container">
+        <h1>Bootstrap Training Project</h1>
+    <hr>
+    <h3>Forms Using Bootstrap</h3>
+    <br />
+
+      <form>
+
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control" name="username" placeholder="Enter Username"/>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" name="password" placeholder="Enter Password" />
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox">Keep Me Logged In
+          </label>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Log In" class="btn btn-default" name="login" />
+        </div>
+
+      </form>
+      <br />
+
+      <h3>Table Using Bootstrap</h3>
+      <br />
+      <table class="table table-striped table-bordered">
+        <tr>
+          <th>Brothers </th><th> Age</th>
+        <tr class="success">
+          <td>Chad</td>
+          <td>48</td>
+        </tr>
+        <tr>
+          <td>Travis</td>
+          <td>44</td>
+        </tr>
+        <tr>
+          <td class="danger">Aaron</td>
+          <td>42</td>
+        </tr>
+        <tr>
+          <td>Kendall</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td>Randy</td>
+          <td>39</td>
+        </tr>
+        <tr>
+          <td>David</td>
+          <td>35</td>
+      </table>
+
+    </div>
+    <br />
+<div class="container">
+
       <div class="row">
         <div class="col-md-4 box">This is a Div</div>
         <div class="col-md-4 box">And this is a Div</div>
         <div class="col-md-4 box">And this is a Div also</div>
       </div>
     </div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-2.1.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
