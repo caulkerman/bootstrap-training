@@ -20,7 +20,7 @@
   </head>
   <body>
 
-  <div class="navbar navbar-inverse">
+  <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <a href="" class="navbar-brand">My Website</a>
@@ -80,34 +80,96 @@
         <tr>
           <th>Brothers </th><th> Age</th>
         <tr class="success">
-          <td>Chad</td>
+          <td>Buck</td>
+          <td>34</td>
+        </tr>
+        <tr>
+          <td>Davis</td>
+          <td>56</td>
+        </tr>
+        <tr>
+          <td class="danger">Derek</td>
           <td>47</td>
         </tr>
         <tr>
-          <td>Travis</td>
-          <td>44</td>
+          <td>Vlad</td>
+          <td>56</td>
         </tr>
         <tr>
-          <td class="danger">Aaron</td>
-          <td>42</td>
+          <td>Tiger</td>
+          <td>54</td>
         </tr>
         <tr>
-          <td>Kendall</td>
-          <td>40</td>
-        </tr>
-        <tr>
-          <td>Randy</td>
-          <td>38</td>
-        </tr>
-        <tr>
-          <td>David</td>
-          <td>34</td>
+          <td>Roach Head</td>
+          <td>9</td>
       </table>
 
     </div>
-    <br />
-<div class="container">
 
+    <div class="container">
+    <h3>Some Components</h3>
+
+      <span class="glyphicon glyphicon-search large"></span> A Search Glyph. It is a font and can be scaled up and colored by creating a class and changing its CSS.
+      <br />
+      <span class="glyphicon glyphicon-calendar calendar"></span> A calendar.  I made it red with CSS.
+      
+      <div class="input-group">
+        <span class="input-group-addon">@</span>
+        <input class="form-control" type="email" placeholder="Enter your email" /><span class="glyphicon glyphicon-comment input-group-addon"></span>
+      </div>
+      <br />
+      <button class="btn btn-success" type=
+      "button"><span class="glyphicon glyphicon-thumbs-down"></span>  Button</button>
+      <br />
+      <br />
+      <div class="alert alert-success">
+        yeah!
+      </div>
+      <div class="alert alert-danger alert-dismissable">
+      <button type="button" class="close" data-dismiss="alert">x</button>
+        You've not done it!
+      </div>
+    </div>
+    <br />
+
+    <div class="container">
+    <h3>List Item Containers</h3>
+      <ul class="list-group">
+        <li class="list-group-item">Inbox<span class="badge">12</span></li>
+        <li class="list-group-item">Sent Items<span class="badge">4</span></li>
+        <li class="list-group-item">Item 3</li>
+        <li class="list-group-item">Item 4</li>
+      </ul>
+      <br />
+
+     <!--  //////MODAL/////// -->
+
+      <button class="btn btn-success" data-toggle="modal" data-target="#myModal">Modal</button>
+    </div>
+
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">x</button>
+            <h4 class="modal-title">My Modal!</h4>
+          </div>
+          <div class="modal-body">
+            <p>What a fantastic Modal</p>
+            <input type="text" class="form-control" placeholder="Enter First Name" />
+            <br />
+            <input type="text" class="form-control" placeholder="Enter Last Name" />
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal">Close</button>
+            <button class="btn btn-success">Save Changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<br />
+<div class="container">
+<!-- ////////make sure you go and see the video again for "scroll spy". It will be usefull for multiple views with navbar links.//////////// -->
       <div class="row">
         <div class="col-md-4 box">This is a Div</div>
         <div class="col-md-4 box">And this is a Div</div>

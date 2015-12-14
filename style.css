@@ -2,3 +2,12 @@
 	background-color: #d3d3d3;
 	border: 1px solid gray;
 }
+
+.large {
+	font-size: 150%;
+}
+
+.calendar {
+	font-size: 175%;
+	color: red;
+}
