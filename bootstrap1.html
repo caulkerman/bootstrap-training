@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="style1.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,37 +20,36 @@
   </head>
   <body>
 
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <a href="" class="navbar-brand">My Website</a>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="" class="navbar-brand">My Website</a>
 
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle Navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-        <li class="active"><a href="">Page 1</a></li> <!-- This active class is here to show that one can show which link is the active link, the one being used.  To make the active class useful you would have to use jQuery so that each one clicked using "this" would show that particular one as being active. -->
-        <li><a href="">Page 2</a></li>
-        <li><a href="">Page 3</a></li>
-        <li><a href="">Page 4</a></li>
-        </ul>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          <li class="active"><a href="">Page 1</a></li> <!-- This active class is here to show that one can show which link is the active link, the one being used.  To make the active class useful you would have to use jQuery so that each one clicked using "this" would show that particular one as being active. -->
+          <li><a href="">Page 2</a></li>
+          <li><a href="">Page 3</a></li>
+          <li><a href="">Page 4</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 
     <div class="container">
-        <h1>Bootstrap Training Project</h1>
-    <hr>
-    <h3>Forms Using Bootstrap</h3>
-    <br />
+      <h1>Bootstrap Training Project</h1>
+      <hr>
+      <h3>Forms Using Bootstrap</h3>
+      <br />
 
       <form>
-
         <div class="form-group">
           <label for="username">Username</label>
           <input type="text" class="form-control" name="username" placeholder="Enter Username"/>
@@ -70,12 +69,14 @@
         <div class="form-group">
           <input type="submit" value="Log In" class="btn btn-default" name="login" />
         </div>
-
       </form>
+      
       <br />
 
       <h3>Table Using Bootstrap</h3>
       <br />
+
+      <!-- /////Learn to use thead and the other one for proper table design////// -->
       <table class="table table-striped table-bordered">
         <tr>
           <th>Brothers </th><th> Age</th>
@@ -107,9 +108,10 @@
     </div>
 
     <div class="container">
-    <h3>Some Components</h3>
+      <h3>Some Components</h3>
 
       <span class="glyphicon glyphicon-search large"></span> A Search Glyph. It is a font and can be scaled up and colored by creating a class and changing its CSS.
+      
       <br />
       <span class="glyphicon glyphicon-calendar calendar"></span> A calendar.  I made it red with CSS.
       
@@ -117,23 +119,25 @@
         <span class="input-group-addon">@</span>
         <input class="form-control" type="email" placeholder="Enter your email" /><span class="glyphicon glyphicon-comment input-group-addon"></span>
       </div>
+      
       <br />
-      <button class="btn btn-success" type=
-      "button"><span class="glyphicon glyphicon-thumbs-down"></span>  Button</button>
+      <button class="btn btn-success" type="button"><span class="glyphicon glyphicon-thumbs-down"></span>  Button</button>
+      
       <br />
       <br />
       <div class="alert alert-success">
         yeah!
       </div>
+      
       <div class="alert alert-danger alert-dismissable">
-      <button type="button" class="close" data-dismiss="alert">x</button>
+        <button type="button" class="close" data-dismiss="alert">x</button>
         You've not done it!
       </div>
     </div>
     <br />
 
     <div class="container">
-    <h3>List Item Containers</h3>
+      <h3>List Item Containers</h3>
       <ul class="list-group">
         <li class="list-group-item">Inbox<span class="badge">12</span></li>
         <li class="list-group-item">Sent Items<span class="badge">4</span></li>
@@ -167,15 +171,20 @@
         </div>
       </div>
     </div>
-<br />
-<div class="container">
-<!-- ////////make sure you go and see the video again for "scroll spy". It will be usefull for multiple views with navbar links.//////////// -->
+    <br />
+    
+    <!-- ////////make sure you go and see the video again for "scroll spy". It will be usefull for multiple views with navbar links.//////////// -->
+    
+    <div class="container">
       <div class="row">
         <div class="col-md-4 box">This is a Div</div>
         <div class="col-md-4 box">And this is a Div</div>
         <div class="col-md-4 box">And this is a Div also</div>
       </div>
     </div>
+
+
+   <!--  //////////SCRIPTS///////// -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-2.1.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
